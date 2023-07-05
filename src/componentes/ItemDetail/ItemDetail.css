@@ -1,0 +1,17 @@
+* {
+    margin: 1rem;
+}
+
+.text-container {
+    width: 50%;
+}
+
+.img-container {
+    width: 50%;
+}
+
+.item-detail-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

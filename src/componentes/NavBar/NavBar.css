@@ -1,0 +1,23 @@
+* {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+li {
+    display: inline-block;
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    color: yellowgreen;
+    transition: ease 0.2s;
+}

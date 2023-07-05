@@ -1,0 +1,52 @@
+.cardProducto {
+    background-color: #c6ff97;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 14.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+
+.name {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.id-producto {
+    margin: 0;
+}
+
+.imgProducto {
+    width: 150px;
+    object-fit: contain;
+}
+
+.btn {
+    border-radius: 10px;
+    width: 50%;
+    height: 1.5rem;
+    border: 2px solid black;
+}
+
+.btn:hover {
+    border: 2px solid red;
+}
+
+.btn__link {
+    color: black;
+}
+
+.btn__link:hover {
+    border-color: 1px solid red;
+}

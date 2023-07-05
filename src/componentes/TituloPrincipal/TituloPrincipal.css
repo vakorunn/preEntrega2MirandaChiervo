@@ -1,0 +1,9 @@
+.main-tittle {
+    font-size: 1.3rem;
+    color: red;
+}
+
+.main-tittle:hover {
+    color: yellowgreen;
+    transition: ease 0.5s;
+}

@@ -1,0 +1,16 @@
+.card-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.imgCarrito {
+    width: 2rem;
+    margin-bottom: 10px;
+}
+
+.product-count {
+    font-size: 18px;
+}
