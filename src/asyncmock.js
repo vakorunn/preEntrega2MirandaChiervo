@@ -23,10 +23,10 @@ export const getUnProducto = (id) => {
 }
 
 export const getProductosPorCategoria = (idCategoria) => {
-    return new Promise ( resolve => {
-        setTimeout( () => {
+    return new Promise(resolve => {
+        setTimeout(() => {
             const productosCategoria = misProductos.filter(prod => prod.idCat === idCategoria);
             resolve(productosCategoria);
-        }, 2000 )
+        }, 100)
     })
 }

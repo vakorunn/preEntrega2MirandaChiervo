@@ -12,6 +12,9 @@ const NavBar = () => {
       <nav>
         <ul>
           <li>
+            <NavLink className='link' to='/'> Inicio </NavLink>
+          </li>
+          <li>
             <NavLink className='link' to="/categoria/2"> Carnes </NavLink>
           </li>
           <li>

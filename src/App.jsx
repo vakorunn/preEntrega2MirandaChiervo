@@ -1,10 +1,12 @@
 //import ItemCount from "./componentes/ItemCount/ItemCount"
-import NavBar from "./componentes/NavBar/NavBar"
-import ItemListContainer from "./componentes/ItemListContainer/ItemListContainer"
-import ItemDetailContainer from "./componentes/ItemDetailContainer/ItemDetailContainer"
+import NavBar from "./components/NavBar/NavBar"
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer"
+
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 const App = () => {
+  document.title = 'Supermercado Vea'
   return (
     <>
       <BrowserRouter>

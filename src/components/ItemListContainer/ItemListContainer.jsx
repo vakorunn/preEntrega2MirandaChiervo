@@ -5,12 +5,12 @@ import ItemList from "../ItemList/ItemList"
 
 const ItemListContainer = (props) => {
     const [productos, setProductos] = useState([]);
-    const { idCate } = useParams();
+    const { idCategoria } = useParams();
     useEffect(() => {
-        const funcion = idCate ? getProductosPorCategoria : getProductos;
-        funcion(idCate)
+        const funcion = idCategoria ? getProductosPorCategoria : getProductos;
+        funcion(idCategoria)
             .then(res => setProductos(res))
-    }, [idCate])
+    }, [idCategoria])
 
     return (
         <>
